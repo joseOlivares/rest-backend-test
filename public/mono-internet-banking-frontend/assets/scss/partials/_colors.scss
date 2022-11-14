@@ -1,0 +1,78 @@
+$primary: #0053cb;
+$primary800: #1565c0;
+$primary700: #1976d2;
+$primary600: #1e88e5;
+$primary400: #42a5f5;
+$primary300: #64b5f6;
+$primary200: #90caf9;
+$primary100: #bbdefb;
+$primary50: #e3f2fd;
+$accent: #2196f3;
+$red-point: #D05B6D;
+$dark-red: #c62828;
+$light-red: #e53935;
+$dark-yellow: #ffa000;
+$light-yellow: #ffc107;
+$warning-light: #FFF5E5;
+$dark-green: #008035;
+$purple: #9c27b0;
+$pink: #F0AEBB;
+$light-green: #00e676;
+$dark-background: #e8e8e8;
+$light-background: #fafafa;
+$dark-gray: rgba(0, 0, 0, 0.24);
+$dark-gray-2: #212121;
+$light-gray: rgba(0, 0, 0, 0.04);
+$disabled-gray: #d3d3d3;
+$disabled-black: #9e9e9e;
+$white: #ffffff;
+$black: #000000;
+$black-light: rgba(0, 0, 0, 0.2);
+$black-inactive: rgba(0, 0, 0, 0.54);
+$black-medium: rgba(0, 0, 0, 0.6);
+$black-high-emphasis: rgba(0, 0, 0, 0.87);
+$gray-divider: #e5e5e5;
+$light-gray: #F6F8FA;
+$gray: #737373;
+$gray-darkest: #323232;
+
+// Colors APAP
+$apap-black: #151c2d;
+$apap-primary: #003459;
+$apap-dark-blue: #0046c4;
+$apap-down-medium-high-blue: #179FDA;
+$apap-down-medium-blue: #1479cc;
+$apap-medium-blue: #3b88c0;
+$apap-light-medium-blue: #E3EFF9;
+$apap-light-blue: #3b88c0;
+$apap-super-light-blue: #def1ff;
+$apap-yellow: #ffd241;
+$apap-light-yellow: #ffd665;
+$apap-gold: #92754c;
+$apap-inactive-gray: #626262;
+$apap-down-gray: #757575;
+$apap-gray: #8a8d8f;
+$apap-gray-2: #666666;
+$apap-light-gray: #939393;
+$apap-ultra-light-gray: #e5e5e5;
+$apap-skye: #e3f2fe;
+$apap-skye-two: #BBDEFB;
+$apap-white-down: #fbfcfd;
+
+// Gradients
+$gradient-dark-blue: linear-gradient(265.15deg, #4a8ebe 9.99%, #003459 101.5%);
+$gradient-medium-blue: linear-gradient(
+  228.5deg,
+  #47a0eb -13.62%,
+  #3a559f 87.55%
+);
+$gradient-light-blue: linear-gradient(
+  223.59deg,
+  #3da1eb -18.96%,
+  #214fa3 108.22%
+);
+$gradient-green: linear-gradient(229.64deg, #48c67c -26.91%, #008035 121.57%);
+$gradient-pink: linear-gradient(261.04deg, #f0aebb -1.3%, #bb5c6f 81.75%);
+$gradient-yellow: linear-gradient(265.15deg, #ffe541 9.99%, #e9bb27 101.5%);
+$gradient-orange: linear-gradient(263.18deg, #ffbe51 12.5%, #e2981b 91.36%);
+$gradient-white: linear-gradient(223.59deg, #FFFFFF 100%, #CCCCCC 100%, #FFFFFF 100%, #CACACACA 100%);

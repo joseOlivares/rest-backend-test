@@ -1,0 +1,28 @@
+{
+    "productsResume": [
+        {
+            "type": "accounts",
+            "state": true
+        },
+        {
+            "type": "creditCards",
+            "state": false
+        },
+        {
+            "type": "loans",
+            "state": false
+        },
+        {
+            "type": "certificates",
+            "state": false
+        },
+        {
+            "type": "banking",
+            "state": false
+        },
+        {
+            "type": "walletApap",
+            "state": false
+        }
+    ]
+}

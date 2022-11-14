@@ -1,0 +1,14 @@
+.generic-title {
+    display: flex;
+    position: absolute;
+    width: 95%;
+    z-index: 100;
+    background: linear-gradient(180deg, #fbfcfd 13.18%, rgba(251, 252, 253, 0) 160.94%, rgba(251, 252, 253, 0) 160.94%);
+    padding-left: 86px;
+    top: 121px;
+    align-items: center;
+
+    button {
+        margin-bottom: 1.3vh;
+    }
+}
