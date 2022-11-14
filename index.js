@@ -12,6 +12,9 @@ app.use(cors());
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
+//dummy data to be updated
+let users={user1:false,user2:false, user3:false, user4:false, user5:false};
+
 
 app.get('/validate_session', async (req, res) => {
   const sessId= req.query.session_id;
@@ -27,8 +30,18 @@ app.get('/validate_session', async (req, res) => {
   },5000);
 });
 
-//dummy data to be updated
- let users={user1:false,user2:false, user3:false, user4:false, user5:false};
+app.get('/users_status', async (req, res) => {
+  const myUser= req.query.user;
+  console.log(`Validando el esatdo del usaurio= ${myUser}`);
+
+  if(users.hasOwnProperty(myUser)){
+    res.status(200).json(users)
+  }
+  else{
+      res.status(404).json({"Error":"User Not Exist"});
+    }
+
+});
 
 //actualizando estados
 app.post('/lock_user', (req, res)=> {
