@@ -18,6 +18,8 @@ app.use(bodyParser.json());
 app.get('/validate_session', async (req, res) => {
   const sessId= req.params.session_id;
 
+  console.log(`Procesando petición, session_id= ${sessId}!`);
+
   await setTimeout(()=>{
 
     if (sessId===700){
