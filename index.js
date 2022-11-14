@@ -16,8 +16,16 @@ app.use(bodyParser.json());
 
 
 app.get('/validate_session', async (req, res) => {
+  const sessId= req.params.session_id;
+
   await setTimeout(()=>{
-    res.status(200).json({'locked':true});
+
+    if (sessId===700){
+      res.status(200).json({'locked':true});
+    }
+    else{
+      res.status(200).json({'locked':false});
+    }
   },5000);
 });
 
