@@ -76,6 +76,19 @@ app.post('/unlock_users', (req, res)=> {
 
 });
 
+app.get('/public-api', async (req, res) => {
+  const myReq= req.query;
+  console.log(`Request query = ${myReq}`);
+
+  response = {
+    'Data': 'Respuesta desde la Api',
+  }
+
+    res.status(200).json(response)
+  
+
+});
+
 
 
 app.listen(port, () => console.log(`Server is running on port ${port}!`));
