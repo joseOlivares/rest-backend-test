@@ -77,11 +77,12 @@ app.post('/unlock_users', (req, res)=> {
 });
 
 app.get('/public-api', async (req, res) => {
-  const myReq= req.query;
-  console.log(`Request query = ${myReq}`);
+  const myReq= req;
+  console.log(JSON.stringify(req.headers));
 
   response = {
     'Data': 'Respuesta desde la Api',
+    'Request': myReq
   }
 
     res.status(200).json(response)
