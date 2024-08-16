@@ -82,7 +82,6 @@ app.get('/public-api', async (req, res) => {
 
   response = {
     'Data': 'Respuesta desde la Api',
-    'Request': myReq
   }
 
     res.status(200).json(response)
